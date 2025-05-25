@@ -1,0 +1,9 @@
+services:
+    CatalogDb:
+        image: postgres:latest
+        restart: always
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+volumes:
+  CatalogDb:
+    
